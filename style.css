@@ -1,0 +1,169 @@
+*{
+    background: #F3F5FC;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 7%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+section{
+    width: 50%;
+    margin-right: 30px;
+}
+
+section + section{
+    margin-right: 0px;
+}
+
+.Informacion{
+    font-size: 20px;
+}
+
+textarea{
+    font-size: 32px;
+}
+
+.areaIngresar{
+    height: 400px;
+    width: 98%;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 0px 10px;
+    text-transform: lowercase;
+    resize: none;
+}
+::placeholder{color: #0A3871;}
+    .areaIngresar:focus{
+        outline: none;
+    }
+
+.areaResultado{
+    height: 480px;
+    width: 95%;
+    background: white;
+    background-image: url(/img/Muñeco.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 24px;
+    color: #000000;
+    margin-top: 30px;
+    resize: none;
+    position: relative;
+}
+
+.areaResultado:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+}
+
+.Encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 50%;
+    margin-top: 18px;
+    font-size: 1rem;
+}
+
+.Desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 50%;
+    margin-top: 18px;
+}
+
+.Copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.Encriptar,
+.Desencriptar,
+.Copiar {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 768px){
+    *{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    main{
+        display: block;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .areaIngresar{
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+    .areaResultado{
+        width: 95;
+        padding: 0px 5px;
+    }
+
+    .botones{
+        display: block;
+    }
+
+    .Desencriptar, .Encriptar{
+        width: 100%;
+    }
+
+    .Encriptar{
+        margin-bottom: 10px;
+    }
+
+    .Desencriptar{
+        margin: 0%;
+    }
+
+    .Copiar{
+        margin-top: 0px;
+        width: 100%;
+    }
+}
