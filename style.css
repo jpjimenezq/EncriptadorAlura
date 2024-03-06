@@ -57,7 +57,7 @@ textarea{
     height: 480px;
     width: 95%;
     background: white;
-    background-image: url(img/Muñeco.png);
+    background-image: url(/img/Muñeco.png);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
