@@ -132,8 +132,139 @@ textarea{
         display: block;
     }
 
+    .body{
+        width: 100%;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
     section{
         width: 100%;
+        margin-right: 0px;
+    }
+
+    .areaIngresar{
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+    .areaResultado{
+        width: 95;
+        padding: 0px 5px;
+    }
+
+    .botones{
+        display: block;
+    }
+
+    .Desencriptar, .Encriptar{
+        width: 100%;
+    }
+
+    .Encriptar{
+        margin-bottom: 10px;
+    }
+
+    .Desencriptar{
+        margin: 0%;
+    }
+
+    .Copiar{
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 390px){
+    *{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    main{
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .logo{
+        width: 20%;
+        padding-top: 0px;
+    }
+
+    section{
+        width: 100%;
+        margin-right: 0px;
+        padding: 5px;
+    }
+
+    .areaIngresar{
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+    .areaResultado{
+        width: 95;
+        padding: 0px 5px;
+    }
+
+    .botones{
+        display: block;
+    }
+
+    .Desencriptar, .Encriptar{
+        width: 100%;
+    }
+
+    .Encriptar{
+        margin-bottom: 10px;
+    }
+
+    .Desencriptar{
+        margin: 0%;
+    }
+
+    .Copiar{
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 431px){
+    *{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    main{
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .logo{
+        width: 20%;
+        padding-top: 0px;
+    }
+
+    section{
+        width: 100%;
+        margin-right: 0px;
+        padding: 5px;
     }
 
     .areaIngresar{
